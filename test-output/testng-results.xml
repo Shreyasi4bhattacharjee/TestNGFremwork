@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2232" started-at="2021-11-23T11:04:47 IST" finished-at="2021-11-23T11:04:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2232" started-at="2021-11-23T11:04:47 IST" finished-at="2021-11-23T11:04:50 IST">
+      <class name="com.testcases.LoginPageTestTDD">
+        <test-method status="PASS" signature="validateLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTestTDD@6b9651f3]" name="validateLoginTest" duration-ms="11" started-at="2021-11-23T11:04:49 IST" data-provider="GetDataUsingExcel" finished-at="2021-11-23T11:04:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method status="PASS" signature="validateLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTestTDD@6b9651f3]" name="validateLoginTest" duration-ms="3" started-at="2021-11-23T11:04:50 IST" data-provider="GetDataUsingExcel" finished-at="2021-11-23T11:04:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tom123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+      </class> <!-- com.testcases.LoginPageTestTDD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
